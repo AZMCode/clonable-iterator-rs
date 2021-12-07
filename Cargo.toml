@@ -1,0 +1,9 @@
+[package]
+name = "clonable-iterator"
+version = "0.1.0"
+edition = "2018"
+description = "Dependency-Free Library to make most non-clonable Iterators in Rust into Clonable ones by use of shared ownership"
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
