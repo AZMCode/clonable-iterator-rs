@@ -1,6 +1,8 @@
 #![feature(once_cell)]
 #![feature(cell_update)]
 
+//! Dependency-Free Iterator Extension Trait with accompanying struct to make !Clone Iterators with Clone elements into a Clone Iterator 
+
 mod symbol {
     use std::lazy::SyncLazy;
     use std::sync::Mutex;
